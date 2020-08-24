@@ -10185,7 +10185,18 @@ a:focus {
 .navbar-default .navbar-nav>.active>a {
     -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
     box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075)
-}
+}<html>
+<head></head>
+<body>
+	<form action="/login" method="POST">
+	    <label>Email Address</label>
+	    <input type="email" name="email" placeholder="Email" autocomplete="off">
+	    <label>Password</label>
+	    <input type="password" name="password" placeholder="Password" autocomplete="off">
+		<button type="submit">sign in</button>                                
+	</form>
+</body>
+</html>
 
 .navbar-brand,
 .navbar-nav>li>a {
